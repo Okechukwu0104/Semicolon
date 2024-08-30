@@ -21,10 +21,9 @@ public static void main(String args[])
 
 	}else{
 	zero++;
-	}	
-	
+
 	System.out.print("press 0 to end input ");
-	int userDecision = userInput.nextInt();
+	int userDecision = userInput.nextInt()
 	
 	if (userDecision == 0){
 	break;

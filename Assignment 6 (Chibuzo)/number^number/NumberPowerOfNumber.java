@@ -26,7 +26,7 @@ public static void main (String args[])
         StringBuilder wrongInput = new StringBuilder();
         int ch;
 
-        while ((ch = System.in.read()) != '\n' && ch != -1) {
+        while ((ch = System.in.read()) != '\n ' && ch != -1) {
             wrongInput.append((char) ch);
         }
         return Double.parseDouble(wrongInput.toString().trim());
