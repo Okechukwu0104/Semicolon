@@ -220,10 +220,10 @@ import java.lang.Math;
 
 
 
-		case 0: break;
+		case 0: System.out.print("Thank you for your patronage");break;
 
 		default: System.out.print("Wrong input..pls try again");
-			continue;
+			break;
 			
 	
 
