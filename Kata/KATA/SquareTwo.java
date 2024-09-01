@@ -7,9 +7,7 @@ import java.util.Scanner;
 
 	public static void main(String args[]){
 
- 	    Scanner userInput = new Scanner(System.in);
-	    System.out.print("input an integer");
-		int square = userInput.nextInt();
+ 	   
 
 		int result = squareOf(square);
 		System.out.print(result);
@@ -18,6 +16,10 @@ import java.util.Scanner;
 
 
 	public static int squareOf(int number){
+
+	 Scanner userInput = new Scanner(System.in);
+	    System.out.print("input an integer");
+		int square = userInput.nextInt();
 
 	return(int) Math.pow(number,2);
 

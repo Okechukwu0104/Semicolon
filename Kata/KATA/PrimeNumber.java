@@ -10,7 +10,16 @@ public class PrimeNumber {
         isPrimeNumber(numberInput);
     }
 
+
+
+
     public static void isPrimeNumber(int numberInput) {
+
+	Scanner userInput = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int numberInput = userInput.nextInt();
+
+	
         int counter = 0;
 
         for (int count = 1; count <= numberInput; count++) {
@@ -18,6 +27,8 @@ public class PrimeNumber {
                 counter++;
             }
         }
+
+
 
         if (counter == 2) {
             System.out.print("It's a prime number");

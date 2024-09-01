@@ -11,7 +11,7 @@ import java.util.Scanner;
 }
 
 
-		public static int positiveSubtraction(int numberOne,int numberTwo){
+		public static int positiveSubtraction(int numberOne,int numberTwo{
 
 		Scanner userInput = new Scanner(System.in);
         	System.out.print("Enter 1st integer: ");
@@ -23,14 +23,10 @@ import java.util.Scanner;
 		
 		if (numberOne < numberTwo){
 			int result = numberTwo - numberOne ; 
-			System.out.print(result);
+			System.out.print("Answer: "+result);
 		}else{ int result = numberOne - numberTwo;
-			System.out.print(result);
+			System.out.print("Answer: "+result);
 			}
-
-
-
-
 
 
 }
