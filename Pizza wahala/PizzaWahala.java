@@ -224,35 +224,10 @@ import java.lang.Math;
 
 		default: System.out.print("Wrong input..pls try again");
 			break;
-			
+
+				
+	     } 	    
 	
-
-
-
-
-		
-
-
-
-
-	     } 
-
-
-
-
-		
-
-
-
-
-
-
-
-
-
-		
-	    
-		
 
 	}
 
